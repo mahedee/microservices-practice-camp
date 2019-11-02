@@ -1,0 +1,8 @@
+D:\Projects\Github\dotnet-microservice\MicroservicePoC\ProductService.Api\bin\Debug\netcoreapp3.0\ProductService.Api.deps.json
+D:\Projects\Github\dotnet-microservice\MicroservicePoC\ProductService.Api\bin\Debug\netcoreapp3.0\ProductService.Api.dll
+D:\Projects\Github\dotnet-microservice\MicroservicePoC\ProductService.Api\obj\Debug\netcoreapp3.0\ProductService.Api.AssemblyInfoInputs.cache
+D:\Projects\Github\dotnet-microservice\MicroservicePoC\ProductService.Api\obj\Debug\netcoreapp3.0\ProductService.Api.AssemblyInfo.cs
+D:\Projects\Github\dotnet-microservice\MicroservicePoC\ProductService.Api\bin\Debug\netcoreapp3.0\ProductService.Api.pdb
+D:\Projects\Github\dotnet-microservice\MicroservicePoC\ProductService.Api\obj\Debug\netcoreapp3.0\ProductService.Api.dll
+D:\Projects\Github\dotnet-microservice\MicroservicePoC\ProductService.Api\obj\Debug\netcoreapp3.0\ProductService.Api.pdb
+D:\Projects\Github\dotnet-microservice\MicroservicePoC\ProductService.Api\obj\Debug\netcoreapp3.0\ProductService.Api.csprojAssemblyReference.cache
