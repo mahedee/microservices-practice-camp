@@ -11,8 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ProductService.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\Github\\dotnet-microservice\\MicroservicePoC\\ProductService.Api", "ProductService.Api.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\Github\\dotnet-microservice\\MicroservicePoC\\ProductService", "ProductService.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ProductService.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "d:\\Projects\\Github\\microservices-practice-camp\\archive\\MicroservicePoC\\ProductSer" +
+    "vice.Api", "ProductService.Api.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ProductService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "d:\\Projects\\Github\\microservices-practice-camp\\archive\\MicroservicePoC\\ProductSer" +
+    "vice", "ProductService.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProductService.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

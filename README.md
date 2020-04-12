@@ -1,2 +1,3 @@
 # Microservices Practice Camp
-A microservice based project using .net core
+#### References  
+* [Pluralsight: Scaling Applications with Microservices, MassTransit, and RabbitMQ](https://www.pluralsight.com/courses/masstransit-rabbitmq-scaling-microservices)
