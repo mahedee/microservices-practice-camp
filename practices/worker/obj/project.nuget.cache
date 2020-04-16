@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BTU0WjCHQ94v9WMLj3RsZJ0oBp0O1w0kTmbVKT3atX1Fki5Pz8AdRjfhixe/A6MYNebRxd+yKmYfBW3vxmaz6g==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\worker\\worker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mahedee\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
