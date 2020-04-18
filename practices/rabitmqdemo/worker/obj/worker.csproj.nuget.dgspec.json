@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Github\\microservices-practice-camp\\practices\\worker\\worker.csproj": {}
+    "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\worker\\worker.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Github\\microservices-practice-camp\\practices\\worker\\worker.csproj": {
+    "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\worker\\worker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\worker\\worker.csproj",
+        "projectUniqueName": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\worker\\worker.csproj",
         "projectName": "worker",
-        "projectPath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\worker\\worker.csproj",
+        "projectPath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\worker\\worker.csproj",
         "packagesPath": "C:\\Users\\Mahedee\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\worker\\obj\\",
+        "outputPath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\worker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,6 +44,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

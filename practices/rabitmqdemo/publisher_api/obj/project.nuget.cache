@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lEP5JFmfVZip3AIix28iF5pdzllNtHddjJoDk8SBMosB70CDC0fDgBUONa5vIHW6KgNNajba1EZaF6Eg5b9jZg==",
+  "dgSpecHash": "iEncQ9dP9+1Sgv1seg+DKh4X+ME/fANEWp5uccSgI/SzdXkzpnnz42P8jS4ve7kOffs/mzhKL5DVe3nUWtPADw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\publisher_api\\publisher_api.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\publisher_api\\publisher_api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mahedee\\.nuget\\packages\\rabbitmq.client\\6.0.0\\rabbitmq.client.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }

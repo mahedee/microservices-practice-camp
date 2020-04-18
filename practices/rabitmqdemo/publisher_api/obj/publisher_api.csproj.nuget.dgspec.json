@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Github\\microservices-practice-camp\\practices\\publisher_api\\publisher_api.csproj": {}
+    "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\publisher_api\\publisher_api.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Github\\microservices-practice-camp\\practices\\publisher_api\\publisher_api.csproj": {
+    "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\publisher_api\\publisher_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\publisher_api\\publisher_api.csproj",
+        "projectUniqueName": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\publisher_api\\publisher_api.csproj",
         "projectName": "publisher_api",
-        "projectPath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\publisher_api\\publisher_api.csproj",
+        "projectPath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\publisher_api\\publisher_api.csproj",
         "packagesPath": "C:\\Users\\Mahedee\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\publisher_api\\obj\\",
+        "outputPath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\rabitmqdemo\\publisher_api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

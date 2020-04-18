@@ -39,6 +39,7 @@ $ dotnet new console -o "worker"
 * [Getting Started with .NET Core, Docker, and RabbitMQ — Part 1](https://medium.com/@TrimbleMAPS.techblog/getting-started-with-net-core-docker-and-rabbitmq-part-1-10e246d4e7f)
 * [Getting Started with .NET Core, Docker, and RabbitMQ — Part 2](https://medium.com/trimble-maps-engineering-blog/getting-started-with-net-core-docker-and-rabbitmq-part-2-e41a0961292a)
 * [Getting Started with .NET Core, Docker, and RabbitMQ — Part 3](https://medium.com/trimble-maps-engineering-blog/getting-started-with-net-core-docker-and-rabbitmq-part-3-66305dc50ccf)
+* [Github repo of the demo](https://github.com/matthew-harper/dotnet-docker-rabbitmq-tutorial)
 
 
 #### Solutions
