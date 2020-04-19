@@ -24,11 +24,14 @@ namespace publisher_api.Services
             _factory.Password = "guest";
             _conn = _factory.CreateConnection();
             _channel = _conn.CreateModel();
+
             _channel.QueueDeclare(queue: "hello",
                                     durable: false,
                                     exclusive: false,
                                     autoDelete: false,
                                     arguments: null);
+
+            
         }
         public bool Enqueue(string messageString)
         {

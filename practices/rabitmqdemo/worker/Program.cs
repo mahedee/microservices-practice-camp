@@ -3,13 +3,13 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Headers;
 using System.Text;
-using Newtonsoft.Json;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using Newtonsoft.Json;
 
 namespace worker
 {
-    public class Program
+    class Program
     {
         public static async Task PostMessage(string postData)
         {
@@ -21,22 +21,14 @@ namespace worker
                 httpClientHandler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => { return true; };
                 using (var client = new HttpClient(httpClientHandler))
                 {
-                    //var result = await client.PostAsync("https://localhost:5001/api/values", content);
-
-                    var result = await client.PostAsync("http://publisher_api:80/api/values", content);
-
+                    var result = await client.PostAsync("http://publisher_api:80/api/Values", content);
                     string resultContent = await result.Content.ReadAsStringAsync();
-                    Console.WriteLine("Server returned: " + resultContent);
                 }
             }
         }
 
         static void Main(string[] args)
         {
-            //Console.WriteLine("Posting a message!");
-            //PostMessage("test message").Wait();
-
-        
             string[] testStrings = new string[] { "one", "two", "three", "four", "five" };
 
             Console.WriteLine("Sleeping to wait for Rabbit");
@@ -65,15 +57,15 @@ namespace worker
             consumer.Received += (model, ea) =>
             {
                 var body = ea.Body;
+                //var message = body.ToString();
+                var message = "custom test message";
+                //var message = System.Text.Encoding.Default.GetString(body);
                 //var message = Encoding.UTF8.GetString(body);
-                string message = body.ToString();
-                //string message = "demo test message";
                 Console.WriteLine(" [x] Received from Rabbit: {0}", message);
             };
             channel.BasicConsume(queue: "hello",
                                     autoAck: true,
                                     consumer: consumer);
         }
-
     }
 }

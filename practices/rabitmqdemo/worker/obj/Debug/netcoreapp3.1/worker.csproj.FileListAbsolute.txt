@@ -21,7 +21,6 @@ D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\worker\bin\
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\worker\bin\Debug\netcoreapp3.1\worker.pdb
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\worker\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\worker\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
-D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\worker\obj\Debug\netcoreapp3.1\worker.csprojAssemblyReference.cache
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\worker\obj\Debug\netcoreapp3.1\worker.csproj.CoreCompileInputs.cache
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\worker\obj\Debug\netcoreapp3.1\worker.AssemblyInfoInputs.cache
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\worker\obj\Debug\netcoreapp3.1\worker.AssemblyInfo.cs

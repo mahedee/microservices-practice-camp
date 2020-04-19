@@ -28,7 +28,6 @@ D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\publisher_a
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\publisher_api\bin\Debug\netcoreapp3.1\publisher_api.dll
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\publisher_api\bin\Debug\netcoreapp3.1\publisher_api.pdb
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\publisher_api\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
-D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\publisher_api\obj\Debug\netcoreapp3.1\publisher_api.csprojAssemblyReference.cache
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\publisher_api\obj\Debug\netcoreapp3.1\publisher_api.csproj.CoreCompileInputs.cache
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\publisher_api\obj\Debug\netcoreapp3.1\publisher_api.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\Github\microservices-practice-camp\practices\rabitmqdemo\publisher_api\obj\Debug\netcoreapp3.1\publisher_api.AssemblyInfoInputs.cache
