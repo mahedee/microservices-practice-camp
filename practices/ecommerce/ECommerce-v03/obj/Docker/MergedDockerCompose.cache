@@ -1,0 +1,45 @@
+services:
+  ecommerce.api.customers:
+    build:
+      context: D:\Projects\Github\microservices-practice-camp\practices\ecommerce\ECommerce
+      dockerfile: ECommerce.Api.Customers\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapicustomers
+    ports:
+    - published: 6002
+      target: 80
+  ecommerce.api.orders:
+    build:
+      context: D:\Projects\Github\microservices-practice-camp\practices\ecommerce\ECommerce
+      dockerfile: ECommerce.Api.Orders\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiorders
+    ports:
+    - published: 6003
+      target: 80
+  ecommerce.api.products:
+    build:
+      context: D:\Projects\Github\microservices-practice-camp\practices\ecommerce\ECommerce
+      dockerfile: ECommerce.Api.Products\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiproducts
+    ports:
+    - published: 6001
+      target: 80
+  ecommerce.api.search:
+    build:
+      context: D:\Projects\Github\microservices-practice-camp\practices\ecommerce\ECommerce
+      dockerfile: ECommerce.Api.Search\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Services__Customers: http://ecommerce.api.customers
+      Services__Orders: http://ecommerce.api.orders
+      Services__Products: http://ecommerce.api.products
+    image: ecommerceapisearch
+    ports:
+    - published: 6004
+      target: 80
+version: '3.4'

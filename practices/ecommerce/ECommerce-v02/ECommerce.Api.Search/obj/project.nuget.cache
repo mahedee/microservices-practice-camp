@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "c54yaVDm7M9VJ2NvOB2Pk6MEJOpgozQd/X/Revvoju3moH5goLa/2tZ6Au+65Rv1XDFCw0DcX7Cv6z06vLktVA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Github\\microservices-practice-camp\\practices\\ecommerce\\ECommerce\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.3\\microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.3\\microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.3\\microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.http\\3.1.3\\microsoft.extensions.http.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.http.polly\\3.1.3\\microsoft.extensions.http.polly.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.logging\\3.1.3\\microsoft.extensions.logging.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.3\\microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.options\\3.1.3\\microsoft.extensions.options.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
+    "C:\\Users\\Mahedee\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
